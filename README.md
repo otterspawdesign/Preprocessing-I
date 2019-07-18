@@ -13,9 +13,9 @@ For this project you will be building a digital resume from scratch. You will be
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [*] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [*] Add your project manager as a reviewer on the pull-request
+- [*] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Task 2: Set up your preprocessor
 * [*] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
@@ -37,10 +37,10 @@ Follow these steps for completing your project.
 * [*] Variables: Incorporate variables in your project for color and font stacks.  
 * [*] Nesting: Every selector should be nested inside the main container.  Avoid having global styles unless they are element level.
 * [*] Mixins: Create 2 mixins of your choosing. Hint: It's super helpful to use flexbox properties in mixins
-* [ ] Mobile: Use nested-at rules to provide a mobile version of your resume.  Use `500px` as a `max-width` for mobile. 
+* [*] Mobile: Use nested-at rules to provide a mobile version of your resume.  Use `500px` as a `max-width` for mobile. 
 
 ## Stretch Goals: 
-* [ ] Incorporate a google font of your choosing
+* [*] Incorporate a google font of your choosing
 * [ ] Convert the great idea CSS into LESS.  Introduce variables, mixins, nesting, etc. 
 * [ ] Create a link to the portfolio page and create a layout that would allow users to see your work.  A good idea is to link projects back to their github repos so employers can see your code.
 
