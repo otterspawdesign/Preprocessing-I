@@ -137,19 +137,39 @@ body {
   font-size: 1.2rem;
 }
 header {
+  width: 100%;
+}
+#jack {
+  background-color: #333;
+  color: white;
   display: flex;
+  border-top: 1px solid #f6f6f6;
 }
 #jack h1 {
-  font-size: 5rem;
+  font-size: 4.5rem;
+}
+#jack img {
+  width: 50%;
+}
+#jack .about-jack {
+  width: 50%;
+  margin: 30px;
+}
+.about {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  width: 90%;
 }
 #navbar {
   background-color: #333;
+  display: flex;
+  justify-content: space-evenly;
 }
 #navbar a:link,
 #navbar a:visited {
   color: white;
-  display: flex;
-  justify-content: space-evenly;
   padding: 8px;
   font-family: "Bahianita", cursive;
   text-decoration: none;
@@ -158,11 +178,31 @@ header {
 #navbar a:hover {
   background-color: #777;
 }
-main {
+.main {
   color: #777;
+  border: 1px solid black;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
-main h2 {
-  font-size: 4rem;
+.main div {
+  width: 40%;
+  margin: 1%;
+}
+.main div li {
+  padding: 10px;
+}
+.main div p {
+  padding: 4px;
+}
+.main h2 {
+  font-size: 3rem;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+footer {
+  margin-left: 40%;
+  padding: 50px;
 }
 @media only screen and (max-width: 500px) {
   body {
