@@ -134,22 +134,55 @@ table {
   box-sizing: border-box;
 }
 
+@header-font: "Bahianita", cursive;
+@body-font-color: #777;
+
 html,
 body {
   height: 100%;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.2rem;
+}
+header {
+  display: flex;
 }
 
-#navbar {
-    background-color: #333;
-
-		a:link,
-		a:visited {
-		color: white;
-		display: flex;
-		padding: 8px;
-		}
-
-    	a:hover {
-      	background-color: #777;
-    }
+#jack {
+  h1{
+    font-size: 5rem;
   }
+
+
+}
+#navbar {
+  background-color: #333;
+
+  a:link,
+  a:visited {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    font-family: @header-font;
+    text-decoration: none;
+    font-size: 2.5rem;
+  }
+
+  a:hover {
+    background-color: #777;
+  }
+}
+
+main {
+  color: @body-font-color;
+
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 500){
+  body {
+    background-color: antiquewhite;
+  }
+}
