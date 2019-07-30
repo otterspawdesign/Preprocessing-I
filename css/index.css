@@ -1,1 +1,211 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.2rem;
+}
+header {
+  width: 100%;
+}
+#jack {
+  background-color: #333;
+  color: white;
+  display: flex;
+  border-top: 1px solid #f6f6f6;
+}
+#jack h1 {
+  font-size: 4.5rem;
+}
+#jack img {
+  width: 50%;
+}
+#jack .about-jack {
+  width: 50%;
+  margin: 30px;
+}
+.about {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  width: 90%;
+}
+#navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: space-evenly;
+}
+#navbar a:link,
+#navbar a:visited {
+  color: white;
+  padding: 8px;
+  font-family: "Bahianita", cursive;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+#navbar a:hover {
+  background-color: #777;
+}
+.main {
+  color: #777;
+  border: 1px solid black;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.main div {
+  width: 40%;
+  margin: 1%;
+}
+.main div li {
+  padding: 10px;
+}
+.main div p {
+  padding: 4px;
+}
+.main h2 {
+  font-size: 3rem;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+footer {
+  margin-left: 40%;
+  padding: 50px;
+}
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: antiquewhite;
+  }
+}
